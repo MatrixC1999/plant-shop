@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VerdantQuasar - Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">VerdantQuasar</a>
+        <nav class="nav">
+            <a href="products.html" aria-current="page">Shop</a>
+            <a class="cart-link" href="cart.html" aria-label="Shopping Cart">
+                <span class="cart-icon">🛒</span>
+                <span id="cart-count" class="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <main class="container" aria-label="Product Listing">
+        <h1>Houseplants</h1>
+
+        <section class="category">
+            <h2>Low Light</h2>
+            <div class="grid">
+                <article class="card" data-id="snake" data-name="Snake Plant" data-price="14.99" data-img="images/Snake Plant.jpg">
+                    <img alt="Snake Plant" src="images/Snake Plant.jpg">
+                    <div class="card-body">
+                        <h3>Snake Plant</h3>
+                        <p class="price">$14.99</p>
+                        <button class="btn add-to-cart" data-id="snake">Add to Cart</button>
+                    </div>
+                </article>
+                <article class="card" data-id="zz" data-name="ZZ Plant" data-price="19.99" data-img="images/ZZ Plant.jpg">
+                    <img alt="ZZ Plant" src="images/ZZ Plant.jpg">
+                    <div class="card-body">
+                        <h3>ZZ Plant</h3>
+                        <p class="price">$19.99</p>
+                        <button class="btn add-to-cart" data-id="zz">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>Pet Friendly</h2>
+            <div class="grid">
+                <article class="card" data-id="calathea" data-name="Calathea" data-price="16.50" data-img="images/Calathea.webp">
+                    <img alt="Calathea" src="images/Calathea.webp">
+                    <div class="card-body">
+                        <h3>Calathea</h3>
+                        <p class="price">$16.50</p>
+                        <button class="btn add-to-cart" data-id="calathea">Add to Cart</button>
+                    </div>
+                </article>
+                <article class="card" data-id="parlor" data-name="Parlor Palm" data-price="12.00" data-img="images/Parlor Palm.jpg">
+                    <img alt="Parlor Palm" src="images/Parlor Palm.jpg">
+                    <div class="card-body">
+                        <h3>Parlor Palm</h3>
+                        <p class="price">$12.00</p>
+                        <button class="btn add-to-cart" data-id="parlor">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>Easy Care</h2>
+            <div class="grid">
+                <article class="card" data-id="pothos" data-name="Golden Pothos" data-price="9.99" data-img="images/Golden Pothos.jpg">
+                    <img alt="Golden Pothos" src="images/Golden Pothos.jpg">
+                    <div class="card-body">
+                        <h3>Golden Pothos</h3>
+                        <p class="price">$9.99</p>
+                        <button class="btn add-to-cart" data-id="pothos">Add to Cart</button>
+                    </div>
+                </article>
+                <article class="card" data-id="succulent" data-name="Assorted Succulent" data-price="7.50" data-img="images/Assorted Succulent.avif">
+                    <img alt="Assorted Succulent" src="images/Assorted Succulent.avif">
+                    <div class="card-body">
+                        <h3>Assorted Succulent</h3>
+                        <p class="price">$7.50</p>
+                        <button class="btn add-to-cart" data-id="succulent">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/store.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+
