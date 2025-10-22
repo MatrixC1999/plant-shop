@@ -1,5 +1,5 @@
 // Minimal Redux-style store for cart state
-const STORAGE_KEY = 'verdantquasar_cart_v1';
+const STORAGE_KEY = 'plantshop_cart_v1';
 
 function loadState() {
     try {
