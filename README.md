@@ -1,21 +1,21 @@
-# VerdantQuasar – Houseplants Shop
+## plant-shop
 
-A simple, responsive 3-page storefront built with plain HTML, CSS, and JavaScript. It includes a landing page, product listing with categories and Add to Cart, and a shopping cart with quantity controls, totals, and basic navigation.
+A responsive 3-page online storefront created using plain HTML, CSS, and JavaScript. It features a homepage, a product catalog with category filters and an Add to Cart option, and a shopping cart page with quantity adjustments, total calculation, and basic navigation.
 
 ## Author
-- Creator: Jehadee L. Macadato
+- Creator: Concepcion, Matrix T. 
 
 ## What's new (latest changes)
-- Organized assets into `css/` and `js/` folders for GitHub deployment.
-- Added hover effects for images and buttons.
-- Mobile responsive improvements at 768px and 480px.
-- Added Redux-style store (`js/store.js`) with actions (ADD_ITEM/INC/DEC/DEL) and localStorage persistence.
-- Added an extra "Continue Shopping" button at the top of the cart page.
-
+- The project structure was refined by categorizing assets into css/ and js/ directories to support organized GitHub deployment.
+- Interactive hover effects were implemented to enhance user experience.
+- Responsive layout optimizations were made for devices with 768px and 480px widths.
+- A Redux-style store (js/store.js) was integrated, featuring action handlers (ADD_ITEM, INC, DEC, DEL) and persistent storage through localStorage.
+- A “Continue Shopping” button was added to the cart page for improved usability.
+  
 ## Pages
-- Landing: `index.html` – background image, brand, company blurb, Get Started.
-- Products: `products.html` – 6 plants in 3 categories, thumbnails, name, price, Add to Cart.
-- Cart: `cart.html` – item list with image/name/price, increase/decrease/delete, totals, checkout alert, continue shopping (top and bottom).
+- Landing Page (index.html) – Features a background image, brand name, company description, and a “Get Started” button leading to the product listings.
+- Product Page (products.html) – Displays six unique plants grouped into three categories, each showing a thumbnail, name, price, and an “Add to Cart” button.
+- Cart Page (cart.html) – Lists all selected items with image, name, and price, plus options to increase, decrease, or delete items. Includes total quantity, total cost, a checkout alert, and “Continue Shopping” buttons at both the top and bottom.
 
 ## Features
 - Shared header with cart icon and live count across pages.
